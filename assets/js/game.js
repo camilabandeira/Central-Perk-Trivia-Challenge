@@ -1,9 +1,15 @@
+document.addEventListener("DOMContentLoaded", function() {
+  const openPopupButton = document.querySelector("#open-popup");
+  if (openPopupButton) {
+      openPopupButton.addEventListener("click", function() {
+          document.body.classList.add("active-popup");
+      });
+  }
 
-// pop-up quiz
-document.querySelector("#open-popup").addEventListener("click", function() {
-  document.body.classList.add("active-popup");
+  const closePopupButton = document.querySelector(".popup .close-btn");
+  if (closePopupButton) {
+      closePopupButton.addEventListener("click", function() {
+          document.body.classList.remove("active-popup");
+      });
+  }
 });
-
-document.querySelector(".popup .close-btn").addEventListener("click", function() {
-    document.body.classList.remove("active-popup");
-  });
