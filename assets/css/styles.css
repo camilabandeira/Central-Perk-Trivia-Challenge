@@ -59,7 +59,7 @@ body {
 }
 
 /* ------------------- */
-/* Background shape    */
+/* Background shape     */
 /* ------------------- */
 .svg-bg-shape {
     background-image: url('data:image/svg+xml,<svg width="953" height="764" viewBox="0 0 953 964" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H953C635.424 317.297 561.133 526.99 631.377 963.131H348.919C390.341 581.979 361.107 372.804 0 0Z" fill="%23D0BAE7"/><path d="M0 0H258.349C383.969 343.266 449.914 595.042 449.914 963.131H348.85C390.263 581.979 361.036 372.804 0 0Z" fill="%23FFCD1D"/><path d="M953 0H694.651C569.031 343.266 515.356 595.042 515.356 963.131H631.296C576.782 578.73 591.964 372.804 953 0Z" fill="%23FFCD1D"/></svg>');
@@ -70,7 +70,7 @@ body {
 }
 
 /* ------------------- */
-/* Welcome section     */
+/* Welcome section      */
 /* ------------------- */
 .welcome-container {
     display: flex;
@@ -112,4 +112,453 @@ body {
 
 .fa-brands {
     font-size: 17px;
+}
+
+/* ------------------- */
+/* Pop-up section       */
+/* ------------------- */
+.popup {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 550px;
+    padding: 20px;
+    background-color: var(--vivid-yellow);
+    font-weight: 100;
+    margin-top: -25px;
+    opacity: 0;
+    border-radius: 15px;
+    background-image: var(--background-noise-pattern);
+}
+
+.popup ol {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.popup-btn {
+    text-align: right;
+    padding: 1.25rem;
+    background-image: var(--svg-background-image);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 28px;
+}
+
+.popup>* {
+    margin: 15px 0px;
+}
+
+.popup span {
+    font-weight: 700;
+}
+
+.popup-title-container {
+    border-bottom: 2px solid var(--dark-brown);
+    padding: 0 20px;
+}
+
+.popup h3 {
+    font-family: var(--font-the-bold);
+    font-size: 1.5rem;
+    color: var(--soft-purple);
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+}
+
+.popup-border {
+    border: 2px solid var(--dark-brown);
+}
+
+#open-popup {
+    font-family: var(--font-anonymous-pro);
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-right: 6px;
+
+}
+
+.popup .close-btn {
+    position: absolute;
+    top: 48px;
+    right: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: top 0ms ease-in-out 300ms, opacity 300ms ease-in-out,
+        margin-top 300ms ease-in-out;
+}
+
+body.active-popup .popup {
+    top: 50%;
+    opacity: 1;
+    margin-top: 0px;
+    transition: top 0ms ease-in-out 0ms, opacity 300ms ease-in-out,
+        margin-top 300ms ease-in-out;
+}
+
+body.active-popup .welcome-container {
+    backdrop-filter: blur(5px);
+    transition: filter 300ms ease-in-out 0ms;
+}
+
+body.active-popup .popup {
+    top: 50%;
+    opacity: 1;
+    margin-top: 0px;
+    transition: top 0ms ease-in-out 0ms, opacity 300ms ease-in-out,
+        margin-top 300ms ease-in-out;
+}
+
+body.active-popup .welcome-container,
+body.active-popup .box,
+body.active-popup footer {
+    filter: blur(5px);
+    transition: filter 300ms ease-in-out 0ms;
+}
+
+.play-quiz-btn {
+    display: block;
+    width: 32%;
+    padding: 5px;
+    text-align: center;
+    font-family: var(--font-the-bold);
+    background-color: var(--soft-purple);
+    color: var(--dark-brown);
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    left: 35%;
+    top: -15px;
+    position: relative;
+    background-image: url(https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/450948f0-5b3d-42c6-9d84-7bfcfc06c8ad);
+}
+
+.play-quiz-border {
+    border: 2px solid var(--dark-brown);
+    padding: 10px;
+    width: 98%;
+    padding: 4px;
+}
+
+/* ------------------- */
+/* Questions page    */
+/* ------------------- */
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+    top: 40px;
+    border: 1px solid var(--dark-brown);
+    font-family: var(--font-anonymous-pro);
+}
+
+.question-top-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 420px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.back-homepage {
+    font-family: var(--font-the-bold);
+    position: relative;
+    right: 115px;
+
+}
+
+.progress-bar {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 8px;
+    max-width: 95%;
+}
+
+.loading {
+    border: 2px solid var(--dark-brown);
+    border-radius: 20px;
+    width: 350px;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    background-image: var(--background-noise-pattern);
+    background-color: var(--soft-purple);
+    width: 100%;
+    padding: 15px;
+    line-height: 20px;
+    gap: 2px;
+}
+
+.question h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.question span {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.answers {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.choices {
+    font-family: var(--font-anonymous-pro);
+    font-weight: 600;
+    color: var(--olive-brown);
+    font-size: 20px;
+    border: 1px solid var(--dark-brown);
+    padding: 20px;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.choices:hover {
+    background-color: var(--light-lavender);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.points-btn {
+    background-image: var(--svg-background-image);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    left: 260px;
+    top: 10px;
+
+}
+
+.points-btn button {
+    font-family: var(--font-the-bold);
+    font-size: 20px;
+    color: var(--dark-brown);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.points-btn span {
+    font-size: 16px;
+
+}
+
+
+
+
+
+/* ------------------- */
+/* End of quiz */
+/* ------------------- */
+.quiz-end-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40%;
+    position: relative;
+    top: 100px;
+
+}
+
+.quiz-end-border {
+    border: 2px solid var(--dark-brown);
+}
+
+.quiz-image img {
+    max-width: 238px;
+    margin: 0 auto;
+}
+
+.quiz-message {
+    background-color: var(--soft-purple);
+    padding: 20px;
+    text-align: center;
+    background-image: var(--background-noise-pattern);
+
+}
+
+.quiz-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--dark-brown);
+    width: 100%;
+    padding: 10px;
+
+}
+
+.quiz-title h2 {
+    font-family: var(--font-the-bold);
+    color: var(--dark-brown);
+    margin: 0 auto;
+    position: relative;
+    left: 10px;
+    width: 100%;
+}
+
+.quiz-message p {
+    padding: 10px;
+}
+
+.quiz-end-container .fa-solid {
+    font-size: 60px;
+    color: var(--vivid-yellow);
+}
+
+/* ------------------- */
+/* 404 Page */
+/* ------------------- */
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 50rem;
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    background-color: var(--soft-purple);
+    background-image: var(--background-noise-pattern);
+    border-radius: 0.875rem;
+}
+
+.error-container-border {
+    border: 2px solid var(--dark-brown);
+    color: var(--dark-brown);
+    width: 98%;
+
+}
+
+.error-title h1 {
+    font-family: var(--font-the-bold);
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 2px solid var(--dark-brown);
+    padding: 10px;
+}
+
+.error-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: var(--dark-brown);
+}
+
+.error-btn {
+    background-color: var(--light-lavender);
+    font-family: var(--font-the-bold);
+    padding: 7px;
+    background-image: url(https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/450948f0-5b3d-42c6-9d84-7bfcfc06c8ad);
+}
+
+.error-btn-border {
+    border: 2px solid var(--dark-brown);
+    padding: 4px;
+}
+
+/* ------------------- */
+/* Footer */
+/* ------------------- */
+
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    /* popup section  */
+    .popup {
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    body.active-popup .popup {
+        top: 70%;
+    }
+
+    .popup>* {
+        margin: 10px 0px;
+    }
+
+    /* questions page  */
+
+    .question-container {
+        width: 95%;
+    }
+
+    /* error page  */
+    .error-container {
+        max-width: 93%;
+    }
+
+}
+
+@media only screen and (max-width: 395px) {
+
+    html,
+    body {
+        overflow: hidden;
+        min-height: 100vh;
+    }
+
+
+    /* question page  */
+    .back-homepage {
+        font-family: var(--font-the-bold);
+        position: relative;
+        right: 105px;
+
+    }
+
+    .play-quiz-btn {
+        width: 35%;
+    }
+
+    /* congrats page */
+
+    .quiz-end-container {
+        max-width: 93%;
+    }
+
 }
