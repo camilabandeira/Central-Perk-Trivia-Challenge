@@ -1,0 +1,48 @@
+@import url("https://fonts.cdnfonts.com/css/the-bold-font");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Poppins:wght@300;400&display=swap");
+
+:root {
+    --dark-brown: #412C28;
+    --olive-brown: #5e5031;
+    --vivid-yellow: #ffcd1d;
+    --soft-purple: #9771bf;
+    --light-lavender: #d0bae7;
+    --pure-white: #ffffff;
+
+    --font-the-bold: 'The Bold Font', sans-serif;
+    --font-anonymous-pro: 'Anonymous Pro', monospace;
+    --font-poppins: 'Poppins', sans-serif;
+
+    --background-noise-pattern: url('https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/450948f0-5b3d-42c6-9d84-7bfcfc06c8ad');
+    --svg-background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA2IiBoZWlnaHQ9IjU3IiB2aWV3Qm94PSIwIDAgMTU2IDU3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZWxsaXBzZSBjeD0iNzcuOTY2OCIgY3k9IjI4LjExOTgiIHJ4PSI3Ny41IiByeT0iMjUiIGZpbGw9IiNEMEJBRTciLz4KPHBhdGggZD0iTTE1NC41MDggMTUuNzQ1NEMxNTUuMDM2IDE4LjkyNzcgMTUzLjU1MyAyMi4zNzUzIDE1MC4yMiAyNS45MTY5QzE0Ni44OTQgMjkuNDUxNCAxNDEuNzkxIDMzLjAwNTYgMTM1LjI2OSAzNi4zNzAxQzEyMi4yMyA0My4wOTY0IDEwMy42MjYgNDkuMDExNSA4Mi41NDk5IDUyLjUwNDJDNjEuNDczNyA1NS45OTY5IDQxLjk1NjEgNTYuMzk5MSAyNy40NDQ3IDU0LjIzODNDMjAuMTg2MSA1My4xNTc1IDE0LjIwOSA1MS40Mzk1IDkuOTIwNjEgNDkuMTY2OEM1LjYyMzc1IDQ2Ljg4OTYgMy4xMDc4MSA0NC4xMDQ3IDIuNTgwNDUgNDAuOTIyM0MyLjA1MzA4IDM3Ljc0IDMuNTM2MTggMzQuMjkyNCA2Ljg2ODc4IDMwLjc1MDlDMTAuMTk0OCAyNy4yMTYzIDE1LjI5ODIgMjMuNjYyMSAyMS44MjAyIDIwLjI5NzZDMzQuODU4OCAxMy41NzEzIDUzLjQ2MjkgNy42NTYxNiA3NC41MzkgNC4xNjM0OUM5NS42MTUyIDAuNjcwODIgMTE1LjEzMyAwLjI2ODU1OSAxMjkuNjQ0IDIuNDI5MzZDMTM2LjkwMyAzLjUxMDIgMTQyLjg4IDUuMjI4MTggMTQ3LjE2OCA3LjUwMDlDMTUxLjQ2NSA5Ljc3ODEgMTUzLjk4MSAxMi41NjMgMTU0LjUwOCAxNS43NDU0WiIgc3Ryb2tlPSIjNDEyQzI4Ii8+Cjwvc3ZnPgo=");
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+ol li {
+    list-style-type: none;
+}
+
+button,
+.button,
+a.button,
+a {
+    color: var(--dark-brown);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+}
