@@ -51,6 +51,7 @@ a {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: var(--font-poppins);
     font-size: 1rem;
     line-height: 1.6;
