@@ -20,7 +20,7 @@ This project was developed as a part of the Code Institute Full Stack Developmen
 
 - ### Colour Scheme
 
-<img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/aa47fe55-728f-44ff-a2d3-a01001fe2538" alt="Color Scheme" width="650">
+<img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/aa47fe55-728f-44ff-a2d3-a01001fe2538" alt="Color Scheme">
 
 <br />
 
@@ -38,3 +38,22 @@ This project was developed as a part of the Code Institute Full Stack Developmen
 
 5. **--light-lavender: #D0BAE7**
    Light lavender provides a gentle, airy complement to the soft purple, ideal for backgrounds, gradients, or overlay panels. It enhances the UI's visual appeal with a serene, friendly vibe, making the trivia experience more enjoyable and less straining on the eyes.
+
+   <br/>
+
+- ### Typography
+
+<img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/3bb5ef28-5bec-4843-aadd-38a87baf3501" alt="Typography" >
+
+### Poppins
+
+1. **Poppins** is chosen for its modern, clean look and excellent readability, making it perfect for the main text such as questions and answers. Its geometric, friendly design helps maintain a contemporary vibe that suits the timeless nature of "Friends."
+
+2. ### The Bold Font
+
+   **The Bold Font** is used for headings and key elements to grab attention with its strong and impactful presence. It resonates with the dynamic personalities of the show's characters, enhancing the quiz’s energy and focus.
+
+3. ### Anonymous Pro
+   **Anonymous Pro** offers great clarity for displaying user inputs and numerical data, thanks to its monospaced format. It adds a nostalgic touch with its typewriter-like appearance, nodding to the show's 1990s setting, while keeping the digital experience user-friendly.
+
+These font choices collectively ensure a visually appealing, engaging, and easy-to-navigate user experience, reflecting the essence and era of "Friends."
