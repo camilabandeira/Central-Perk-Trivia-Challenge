@@ -4,10 +4,12 @@ Welcome to <a href="https://camilabandeira.github.io/Central-Perk-Trivia-Challen
 
 This project was developed as a part of the Code Institute Full Stack Development Program. It serves as a capstone project designed to showcase the skills and knowledge acquired throughout the course. "The One With The Quiz" is a testament to the application of web development technologies and best practices in creating an engaging and user-friendly web application.
 
-<div style="text-align:center"><a href="https://camilabandeira.github.io/Central-Perk-Trivia-Challenge/">Live Project</a></div>
+<div style="text-align:center">
+  <a href="https://camilabandeira.github.io/Central-Perk-Trivia-Challenge/">Live Project</a>
+</div>
 
 <br />
-<img width="700" alt="Screenshot" src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/7c3357ce-9b7c-4559-b84b-dfc32d5d0cfe">
+<img alt="Screenshot" src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/7c3357ce-9b7c-4559-b84b-dfc32d5d0cfe">
 
 ## User Experience (UX)
 
@@ -62,3 +64,21 @@ This project was developed as a part of the Code Institute Full Stack Developmen
    **Anonymous Pro** offers great clarity for displaying user inputs and numerical data, thanks to its monospaced format. It adds a nostalgic touch with its typewriter-like appearance, nodding to the show's 1990s setting, while keeping the digital experience user-friendly.
 
 These font choices collectively ensure a visually appealing, engaging, and easy-to-navigate user experience, reflecting the essence and era of "Friends."
+
+- ### Wireframes
+
+In the process of creating my wireframe, I selected Figma as the main tool because of its outstanding abilities in visualizing projects and its importance in encouraging creativity during the design phase. This decision was crucial in making the design workflow easier and improving the overall creative quality, which greatly helped the project's development stage.
+
+[View Wireframe in Figma](https://www.figma.com/file/AnOt137bBu9sDInGKjw9Pp/Untitled?type=design&node-id=64%3A5&mode=design&t=mlr6Ul4oUwgStSiT-1)
+
+# Features
+
+- ### Initial Page Features
+
+### Introduction
+
+- **Overview**: The introduction provides a brief overview of the quiz, outlining the theme and setting expectations for the participants.
+
+### Start Button
+
+- **Interaction**: A prominently displayed "Start" button. When clicked, a pop-up appears detailing the game's rules. This ensures participants understand the gameplay format and what is expected of them before the quiz begins, aiding in a smooth gameplay experience.
