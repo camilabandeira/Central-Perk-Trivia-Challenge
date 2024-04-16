@@ -96,3 +96,16 @@ In the process of creating my wireframe, I selected Figma as the main tool becau
 <img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/cb025c9f-827c-46ff-b839-3e8739b2c021">
 
 <img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/4a818efc-0242-4d52-a498-40f2b74d703a">
+
+## Technologies
+
+### Main Tecnologies Used
+
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Other Tecnologies Used
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
