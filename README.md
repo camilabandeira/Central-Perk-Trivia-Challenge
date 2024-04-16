@@ -77,8 +77,22 @@ In the process of creating my wireframe, I selected Figma as the main tool becau
 
 ### Introduction
 
-- **Overview**: The introduction provides a brief overview of the quiz, outlining the theme and setting expectations for the participants.
+    The introduction provides a brief overview of the quiz, outlining the theme and setting expectations for the participants.
 
-### Start Button
+    A prominently displayed "Start" button. When clicked, a pop-up appears detailing the game's rules. This ensures participants understand the gameplay format and what is expected of them before the quiz begins, aiding in a smooth gameplay experience.
 
-- **Interaction**: A prominently displayed "Start" button. When clicked, a pop-up appears detailing the game's rules. This ensures participants understand the gameplay format and what is expected of them before the quiz begins, aiding in a smooth gameplay experience.
+<img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/69290b4b-5003-4c62-9876-65ceed875a0e">
+
+### Game Rules Overview Popup
+
+    A standout feature of the "Central Perk Trivia Challenge" website is its interactive popup that introduces the game's rules to the player. This popup, accessible via a "Start" button on the homepage, succinctly outlines crucial information such as time constraints per question and the irreversibility of answers. It culminates with a "Play Game" button, encouraging players to proceed directly into the quiz, fully informed of the gameplay mechanics. This feature enhances user understanding and engagement, providing a smooth entry into the trivia challenge.
+
+<img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/4855c1ba-f6cc-4392-95af-6588c225fa3d">
+
+### Interactive Trivia Quiz Page
+
+    The "Interactive Trivia Quiz Page" on the Central Perk Trivia Challenge website offers a dynamic quiz experience centered around the TV show "Friends." This page features multiple-choice questions with a timed response mechanism to increase the challenge. After completing the quiz, players are presented with their score and the option to replay, enhancing user engagement and replayability.
+
+<img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/cb025c9f-827c-46ff-b839-3e8739b2c021">
+
+<img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/4a818efc-0242-4d52-a498-40f2b74d703a">
