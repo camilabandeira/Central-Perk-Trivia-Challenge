@@ -158,4 +158,4 @@ In the process of creating my wireframe, I selected Figma as the main tool becau
 5. [Website Images](https://icons8.com/) - The favicon that enhances my project's browser tab and bookmarks presence was sourced from Icons8.
 6. [SVG Backgrounds](https://www.svgbackgrounds.com/tools/svg-to-css/) - Background SVGs adapted.
 7. [Designer's Hub](<https://www.figma.com/file/PDZjIS3avQzzUpNul6iv86/Free-Different-Buttons-(Community)?type=design&mode=design>) - Button design inspired by concepts shared.
-8. [ChatGPT by OpenAI](https://www.openai.com/chatgpt) -
+8. [ChatGPT by OpenAI](https://www.openai.com/chatgpt) - This tool was crucial for inspiring website text and enhancing spelling and grammar.
