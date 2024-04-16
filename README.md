@@ -109,3 +109,27 @@ In the process of creating my wireframe, I selected Figma as the main tool becau
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
+
+## Testing
+
+#### Validator Testing
+
+- #### HTML
+  Both the index and questions pages of the "Central Perk Trivia Challenge" have been validated using the W3C
+
+[W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcamilabandeira.github.io%2FCentral-Perk-Trivia-Challenge%2F) -
+<br>
+
+<img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/e049106c-5ae0-4bf7-a8ad-d1602439e7bf" alt="Screenshot HTML Validator" width="350"><br />
+
+[W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcamilabandeira.github.io%2FCentral-Perk-Trivia-Challenge%2F) -
+<br>
+
+  <img src="https://github.com/camilabandeira/Central-Perk-Trivia-Challenge/assets/118302468/bca82154-466d-4cb0-a327-ba780b5e1558" alt="Screenshot HTML Validator" width="350">
+
+- #### CSS
+  No errors were found when validating the CSS through the W3C Jigsaw CSS Validation Service.
+
+[W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcamilabandeira.github.io%2FCentral-Perk-Trivia-Challenge%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  <img src="https://github.com/camilabandeira/BrazBrew/assets/118302468/76f09058-6320-4a0f-88f3-244e0781029a" alt="Screenshot CSS Validator" width="350">
