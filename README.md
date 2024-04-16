@@ -149,3 +149,13 @@ In the process of creating my wireframe, I selected Figma as the main tool becau
 
      GitHub Pages will provide you with a URL where your site is published. It should be something like https://username.github.io.
      Open this URL in your browser to verify that your site is deployed correctly.
+
+## Credits
+
+2. [Am I Responsive?](https://ui.dev/amiresponsive) - I used the "Am I Responsive?" website to quickly check how my web project looks on various devices, ensuring it's visually appealing and functional across different screen sizes.
+3. [Font Awesome](https://fontawesome.com/) - I incorporated FontAwesome into my project for its vast collection of icons, enhancing the UI with scalable and visuals.
+4. [Google Fonts](https://fonts.google.com/) - For the typography of my project, I leveraged the extensive library of Google Fonts. This allowed me to select and incorporate high-quality, web-optimized fonts, ensuring that my project's text is both visually appealing and highly readable across different devices and platforms.
+5. [Website Images](https://icons8.com/) - The favicon that enhances my project's browser tab and bookmarks presence was sourced from Icons8.
+6. [SVG Backgrounds](https://www.svgbackgrounds.com/tools/svg-to-css/) - Background SVGs adapted.
+7. [Designer's Hub](<https://www.figma.com/file/PDZjIS3avQzzUpNul6iv86/Free-Different-Buttons-(Community)?type=design&mode=design>) - Button design inspired by concepts shared.
+8. [ChatGPT by OpenAI](https://www.openai.com/chatgpt) -
