@@ -133,3 +133,19 @@ In the process of creating my wireframe, I selected Figma as the main tool becau
 [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcamilabandeira.github.io%2FCentral-Perk-Trivia-Challenge%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
   <img src="https://github.com/camilabandeira/BrazBrew/assets/118302468/76f09058-6320-4a0f-88f3-244e0781029a" alt="Screenshot CSS Validator" width="350">
+
+## Deployment
+
+    The website is deployed using GitHub Pages - [Central Perk Trivia Challenge](https://camilabandeira.github.io/Central-Perk-Trivia-Challenge/)
+
+     To deploy the website using GitHub Pages:
+
+     1. Go to your repository on GitHub.
+     2. Click on the "Settings" tab.
+     3. Scroll down to the "GitHub Pages" section.
+     4. Under "Source," select "master branch" (or another branch if you're using a different one).
+     5. Click "Save."
+     6. Verify Deployment:
+
+     GitHub Pages will provide you with a URL where your site is published. It should be something like https://username.github.io.
+     Open this URL in your browser to verify that your site is deployed correctly.
