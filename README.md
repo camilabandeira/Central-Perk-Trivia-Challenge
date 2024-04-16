@@ -31,20 +31,21 @@ This project was developed as a part of the Code Institute Full Stack Developmen
 
 <br />
 
-1. **--dark-brown: #412C28**
-   This deep, rich brown evokes the warmth and comfort of Central Perk, the coffee shop where the friends frequently gather. It's ideal for text and elements that require a strong contrast against lighter backgrounds, providing a cozy, inviting atmosphere that echoes the show's setting.
+      2. olive-brown: #5E5031
 
-2. **--olive-brown: #5E5031**
-   Olive brown complements dark brown with a hint of earthiness, reminiscent of the vintage, eclectic furniture and decor of Central Perk. This color can be used for secondary text and less prominent UI elements, adding depth and a natural feel that enhances the user interface without overwhelming it.
+Olive brown complements dark brown with a hint of earthiness, reminiscent of the vintage, eclectic furniture and decor of Central Perk. This color can be used for secondary text and less prominent UI elements, adding depth and a natural feel that enhances the user interface without overwhelming it.
 
-3. **--vivid-yellow: #FFCD1D**
-   Vivid yellow mirrors the iconic frame on Monica's apartment door, bringing a burst of energy and optimism to the design. It's perfect for call-to-action buttons, highlights, and interactive elements, capturing attention and encouraging user engagement with its bright, cheerful hue.
+      3. vivid-yellow: #FFCD1D
 
-4. **--soft-purple: #9771BF**
-   Soft purple is a nod to the walls of Monica's apartment, offering a playful yet soothing contrast to the more grounded browns and yellows. It can be used for background sections, navigation bars, or to highlight categories and questions, adding a subtle touch of whimsy and familiarity for fans of the show.
+Vivid yellow mirrors the iconic frame on Monica's apartment door, bringing a burst of energy and optimism to the design. It's perfect for call-to-action buttons, highlights, and interactive elements, capturing attention and encouraging user engagement with its bright, cheerful hue.
 
-5. **--light-lavender: #D0BAE7**
-   Light lavender provides a gentle, airy complement to the soft purple, ideal for backgrounds, gradients, or overlay panels. It enhances the UI's visual appeal with a serene, friendly vibe, making the trivia experience more enjoyable and less straining on the eyes.
+      4. soft-purple: #9771BF
+
+Soft purple is a nod to the walls of Monica's apartment, offering a playful yet soothing contrast to the more grounded browns and yellows. It can be used for background sections, navigation bars, or to highlight categories and questions, adding a subtle touch of whimsy and familiarity for fans of the show.
+
+      5. light-lavender: #D0BAE7
+
+Light lavender provides a gentle, airy complement to the soft purple, ideal for backgrounds, gradients, or overlay panels. It enhances the UI's visual appeal with a serene, friendly vibe, making the trivia experience more enjoyable and less straining on the eyes.
 
    <br/>
 
